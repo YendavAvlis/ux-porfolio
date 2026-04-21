@@ -30,8 +30,6 @@ const CaseStudies = () => {
         <CaseStudyOne scrollYProgress={scrollYProgress}/>
         <CaseStudyTwo  scrollYProgress={scrollYProgress}/>
         <CaseStudyThree  scrollYProgress={scrollYProgress}/>
-
-
       </main>
     </section>
   )
