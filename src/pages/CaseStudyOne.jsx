@@ -49,26 +49,37 @@ const CaseStudyOne = ({scrollYProgress}) => {
           </div>
           <div className='w-1/3 flex flex-col justify-evenly my-auto border border-primary glass p-6 h-[65%] rounded-md'>
             <div className=''>
-              <h2 className='font-bold text-3xl py-4 '>Skuata App</h2>
-              <p className='text-xl text-foreground/80 font-medium'>An innovative solution for affordable housing, designed to make living easier for low-income individuals, students, and minimum wage earners.</p>
+              <h2 className='font-bold text-3xl py-4 '>Year</h2>
+              <p className='text-2xl text-foreground/80 font-medium'>2026</p>
             </div>
 
             <div className=''>
-              <h2 className='font-bold text-3xl py-4'>Roles</h2>
+              <h2 className='font-bold text-3xl py-4'>Deliverables</h2>
               <ul>
-                <li>UI/UX Designer</li>
-                <li>Frontend Developer</li>
+
+                <li>Logo Design</li>
+                <li>Design System</li>
+                <li>Wireframe: Low & High Fidelity</li>
               </ul>
             </div>
 
             <div className=''>
-              <h2 className='font-bold text-3xl py-4'>Team</h2>
+              <h2 className='font-bold text-3xl py-4'>Skills</h2>
               <ul>
-                <li>Project Manager</li>
+                <li>Wireframe</li>
+                <li>Prototyping</li>
+                <li>Web Design</li>
+                <li>Figma</li>
+              </ul>
+            </div>
+
+            <div className=''>
+              <h2 className='font-bold text-3xl py-4'>Links</h2>
+              <ul>
+                <li><a href=""></a></li>
                 <li>Frontend Developers</li>
                 <li>Backend Developer</li>
                 <li>DevOps</li>
-
               </ul>
             </div>
           </div>
