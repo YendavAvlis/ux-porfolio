@@ -23,3 +23,4 @@ export const caseStudies = [
         link: "https://skuata.co.za/app"
     }
 ]
+
