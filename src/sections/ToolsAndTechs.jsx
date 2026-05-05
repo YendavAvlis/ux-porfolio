@@ -1,9 +1,27 @@
 import React from 'react'
+import { toolsTech } from '../utils/tools'
+
 
 const ToolsAndTechs = () => {
   return (
-    <section>
-      <h1>Tools and Techs</h1>
+    <section id="tools" className="container py-24 relative overflow-hidden mx-auto ">
+      <h1 className=' lg:text-7xl font-semibold text-center bg-gradient-to-b  from-foreground bg-clip-text text-transparent'>Tools and Techs</h1>
+      <div className='container flex flex-wrap pt-8 justify-center'>
+        {
+          toolsTech.map((tool, idx) => (
+            <div key={idx} className='border border-transparent bg-border/20 hover:cursor-pointer hover:border-primary/20 p-8 w-2xl rounded-md m-4 flex transition-all duration-300'>
+              <span className='text-4xl p-2 bg-transparent border border-border text-foreground rounded-md m-1 mr-4'>
+                {tool.icon}
+              </span>
+              <div>
+                <h3 className='text-2xl font-bold'>{tool.name}</h3>
+                <p className='text-xl'>{tool.description}</p>
+              </div>
+              
+            </div>
+          ))
+        }
+      </div>
     </section>
   )
 }
