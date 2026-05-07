@@ -1,5 +1,5 @@
 import { BiLogoMongodb, BiLogoTailwindCss } from "react-icons/bi"
-import { FaGithub, FaReact } from "react-icons/fa"
+import { FaGit, FaGitAlt, FaGithub, FaGitSquare, FaReact } from "react-icons/fa"
 import { FaFigma } from "react-icons/fa"
 import { RxVercelLogo } from "react-icons/rx"
 
@@ -20,9 +20,9 @@ export const toolsTech = [
         icon: <BiLogoTailwindCss />,
     },
     {
-        name: "GitHub",
+        name: "Git",
         description: "Version control and Collaboration.",
-        icon: <FaGithub />,
+        icon: <FaGitAlt />,
     },
     {
         name: "MongoDB",

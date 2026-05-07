@@ -10,13 +10,13 @@ const CaseStudyTwo = ({scrollYProgress}) => {
     const rotate = useTransform(scrollYProgress, [0, 1], [5, 0]);
   
   return (
-    <motion.div style={{scale, rotate, backgroundImage:`url(${Pic1})`, backgroundSize: 'cover', height: '135vh', width: '85vw'}} className="sticky top-0 rounded-md flex flex-col items-center text-white overflow-hidden mx-auto">
+    <motion.div style={{scale, rotate, backgroundImage:`url(${Pic1})`, backgroundSize: 'cover', height: '170vh', width: '85vw'}} className="sticky top-0 rounded-md flex flex-col items-center text-white overflow-hidden mx-auto">
           <div  className='container bg-white/30 backdrop-blur-md '>
             <div className=" flex flex-col justify-center gap-4 mx-auto h-full relative z-10 px-8 py-8">
               <div className='w-full flex flex-col justify-evenly my-auto border border-primary glass p-6 rounded-md '>
                 <div className=''>
                   <h2 className='font-bold text-3xl py-4 '>Skuata App</h2>
-                  <p className='text-xl text-foreground/80 font-medium'>An innovative solution for affordable housing, designed to make living easier for low-income individuals, students, and minimum wage earners.</p>
+                  <p className='text-xl text-foreground/80 font-medium leading-8'>An innovative solution for affordable housing, designed to make living easier for low-income individuals, students, and minimum wage earners.</p>
                 </div>
     
                 <div className=''>
@@ -50,7 +50,7 @@ const CaseStudyTwo = ({scrollYProgress}) => {
                   fill
                 />
               </div>
-              <div className='w-full flex flex-col justify-evenly my-auto border border-primary glass p-6 h-[65%] rounded-md '>
+              <div className='w-full flex flex-col justify-evenly my-auto border border-primary glass p-6 rounded-md '>
                 <div className=''>
                   <h2 className='font-bold text-3xl py-4 '>Year</h2>
                   <p className='text-2xl text-foreground/80 font-medium'>2026</p>

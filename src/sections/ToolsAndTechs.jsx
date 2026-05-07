@@ -4,8 +4,8 @@ import { toolsTech } from '../utils/tools'
 
 const ToolsAndTechs = () => {
   return (
-    <section id="tools" className="container py-24 relative overflow-hidden mx-auto ">
-      <h1 className=' lg:text-7xl font-semibold text-center bg-gradient-to-b  from-foreground bg-clip-text text-transparent'>Tools and Techs</h1>
+    <section id="tools" className="container py-24 relative overflow-hidden mx-auto px-8">
+      <h1 className='text-7xl lg:text-9xl font-semibold text-center bg-gradient-to-b  from-foreground bg-clip-text text-transparent'>Tools and Techs</h1>
       <div className='container flex flex-wrap pt-8 justify-center'>
         {
           toolsTech.map((tool, idx) => (
@@ -15,7 +15,7 @@ const ToolsAndTechs = () => {
               </span>
               <div>
                 <h3 className='text-2xl font-bold'>{tool.name}</h3>
-                <p className='text-xl'>{tool.description}</p>
+                <p className='text-md'>{tool.description}</p>
               </div>
               
             </div>

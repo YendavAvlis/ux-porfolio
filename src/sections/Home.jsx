@@ -14,9 +14,7 @@ const skills = [
     "MongoDB",
     "Vercel",
     "Tailwind CSS",
-    "Prisma",
     "Git",
-    "GitHub Actions",
 ];
 
 const Home = () => {
@@ -51,7 +49,7 @@ const Home = () => {
                         <div className="animate-fade-in">
                             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                                Software Engineer • React Specialist
+                                UI/UX Designer • React Specialist
                             </span>
                         </div>
 
@@ -70,11 +68,11 @@ const Home = () => {
                         </div>
 
                 {/* CTAs */}
-                    <div className="container flex flex-wrap gap-4 animate-fade-in animation-delay-300 justify-between py-8">
+                    <div className="container flex flex-wrap gap-4 animate-fade-in animation-delay-300 md:justify-between py-8">
                         <p className="text-2xl leading-10 text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                        Hi, I'm Vadney Da Silva — a software engineer specializing in
+                        Hi, I'm Vadney Da Silva — a UI/UX Designer specializing in
                         React, Next.js, and TypeScript. I build scalable, performant web
-                        applications that users love.
+                        applications that users enjoy.
                         </p>
                         <div className='flex flex-col-reverse gap-4'>
                             <Button size="lg">
@@ -92,14 +90,15 @@ const Home = () => {
                     <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
                         <span className="text-sm text-muted-foreground">Follow me: </span>
                         {[
-                            { icon: BsGithub, href: "#" },
-                            { icon: BsLinkedin, href: "#" },
+                            { icon: BsGithub, href: "https://github.com/YendavAvlis" },
+                            { icon: BsLinkedin, href: "https://www.linkedin.com/in/vadney-da-silva/" },
                             { icon: BsTwitterX, href: "#" },
                         ].map((social, idx) => (
                             <a
                             key={idx}
                             href={social.href}
                             className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
+                            target='_blank'
                             >
                             {<social.icon className="w-5 h-5" />}
                             </a>
@@ -107,7 +106,7 @@ const Home = () => {
                     </div>
             </div>
           {/* Right Column - Profile Image */}
-            <div className="absolute md:right-10 md:bottom-85 lg:right-10 lg:bottom-190 animate-fade-in animation-delay-300">
+            <div className="absolute right-30 bottom-90 md:right-25 md:bottom-85 lg:right-10 lg:bottom-190 animate-fade-in animation-delay-300">
                 {/* Profile Image */}
                 <div className="relative max-w-md mx-auto">
                     <div

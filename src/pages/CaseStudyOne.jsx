@@ -10,13 +10,13 @@ const CaseStudyOne = ({scrollYProgress}) => {
   const rotate = useTransform(scrollYProgress, [0, 1], [0, -5]);
   return (
 
-    <motion.div style={{scale, rotate, backgroundImage:`url(${Pic1})`, backgroundSize: 'cover', height: '135vh', width: '85vw'}} className="sticky top-0 rounded-md flex flex-col items-center justify-center text-white overflow-hidden mx-auto">
-      <div  className='container bg-white/30 backdrop-blur-md  py-8 px-8'>
-        <div className=" flex flex-col items-center gap-4 mx-auto relative z-10 ">
+    <motion.div style={{scale, rotate, backgroundImage:`url(${Pic1})`, backgroundSize: 'cover', height: '175vh', width: '85vw'}} className="sticky top-0 rounded-md flex flex-col items-center text-white overflow-hidden mx-auto">
+      <div  className='container bg-white/30 backdrop-blur-md  '>
+        <div className=" flex flex-col items-center gap-4 mx-auto relative z-10 py-8 px-8">
           <div className='w-full flex flex-col justify-evenly lg:my-auto border border-primary glass p-6 rounded-md '>
             <div className=''>
               <h2 className='font-bold text-3xl py-4 '>Skuata App</h2>
-              <p className='text-xl text-foreground/80 font-medium'>An innovative solution for affordable housing, designed to make living easier for low-income individuals, students, and minimum wage earners.</p>
+              <p className='text-xl text-foreground/80 font-medium leading-8'>An innovative solution for affordable housing, designed to make living easier for low-income individuals, students, and minimum wage earners.</p>
             </div>
 
             <div className=''>

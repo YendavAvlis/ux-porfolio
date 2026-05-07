@@ -84,10 +84,10 @@ const Contact = () => {
   
   return (
     <section id='contact' className='relative py-20 bg-background overflow-hidden'>
-      <div className='flex flex-col items-center justify-center'>
-        <h4 className='text-center text-primary text-md font-bold pb-4 tracking-wider uppercase'>get in touch</h4>
-        <h1 className=' lg:text-8xl font-semibold text-center bg-gradient-to-b  from-foreground bg-clip-text text-transparent'>Let&apos;s work togheter</h1>
-        <p className='text-center py-4 w-2xl text-2xl leading-10'>
+      <div className='flex flex-col items-center justify-center px-8'>
+        <h4 className='text-center text-primary text-xs font-bold pb-4 tracking-wider uppercase'>get in touch</h4>
+        <h1 className=' text-7xl lg:text-9xl font-semibold text-center bg-gradient-to-b  from-foreground bg-clip-text text-transparent'>Let&apos;s work togheter</h1>
+        <p className='text-center py-4 px-24 md:px-12 w-2xl text-xl leading-8'>
           Have a project in mind? I'd love to hear about it. Send me a message and let's discuss how we can work together.
         </p>
       </div>
