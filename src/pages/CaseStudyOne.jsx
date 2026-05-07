@@ -10,10 +10,10 @@ const CaseStudyOne = ({scrollYProgress}) => {
   const rotate = useTransform(scrollYProgress, [0, 1], [0, -5]);
   return (
 
-    <motion.div style={{scale, rotate, backgroundImage:`url(${Pic1})`, backgroundSize: 'cover', height: '175vh', width: '85vw'}} className="sticky top-0 rounded-md flex flex-col items-center text-white overflow-hidden mx-auto">
-      <div  className='container bg-white/30 backdrop-blur-md  '>
-        <div className=" flex flex-col items-center gap-4 mx-auto relative z-10 py-4 px-4">
-          <div className='w-full flex flex-col justify-evenly lg:my-auto border border-primary glass p-6 rounded-md '>
+    <motion.div style={{scale, rotate, backgroundImage:`url(${Pic1})`, backgroundSize: 'cover', height: '175vh', width: '85vw'}} className="sticky top-0 rounded-md flex flex-col items-center text-white overflow-hidden mx-auto  ">
+      <div  className=' bg-white/30 backdrop-blur-md  '>
+        <div className=" flex flex-col items-center gap-4 mx-auto relative z-10 py-4 px-4 xl:flex-row">
+          <div className='w-full xl:w-1/3 flex flex-col justify-evenly lg:my-auto border border-primary glass p-6 rounded-md '>
             <div className=''>
               <h2 className='font-bold text-3xl py-4 '>Skuata App</h2>
               <p className='text-xl text-foreground/80 font-medium leading-8'>An innovative solution for affordable housing, designed to make living easier for low-income individuals, students, and minimum wage earners.</p>
@@ -38,18 +38,18 @@ const CaseStudyOne = ({scrollYProgress}) => {
               </ul>
             </div>
           </div>
-          <div className='w-full my-auto gap-2 flex flex-col rounded-md'>
+          <div className='md:w-1/2 xl:w-1/3 my-auto gap-2 flex flex-col items-center justify-center md:flex-row xl:flex-col  rounded-md'>
             <img
               src={Pic1}
               fill
             />
             <img
-              className='hidden'
+              className='hidden md:block'
               src={Pic2}
               fill
             />
           </div>
-          <div className='w-full flex flex-col justify-evenly my-auto border border-primary glass p-6 rounded-md '>
+          <div className='w-full xl:w-1/3 flex flex-col justify-evenly my-auto border border-primary glass p-6 rounded-md '>
             <div className=''>
               <h2 className='font-bold text-3xl py-4 '>Year</h2>
               <p className='text-2xl text-foreground/80 font-medium'>2026</p>
@@ -65,7 +65,7 @@ const CaseStudyOne = ({scrollYProgress}) => {
               </ul>
             </div>
 
-            <div className='w-full '>
+            <div className='w-full  '>
               <h2 className='font-bold text-3xl py-4'>Skills</h2>
               <div className=''>
                 {
