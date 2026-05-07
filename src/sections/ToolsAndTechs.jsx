@@ -9,8 +9,8 @@ const ToolsAndTechs = () => {
       <div className='container flex flex-wrap pt-8 justify-center'>
         {
           toolsTech.map((tool, idx) => (
-            <div key={idx} className='border border-transparent bg-border/20 hover:cursor-pointer hover:border-primary/20 p-8 w-2xl rounded-md m-4 flex transition-all duration-300'>
-              <span className='text-4xl p-2 bg-transparent border border-border text-foreground rounded-md m-1 mr-4'>
+            <div key={idx} className='border border-transparent bg-border/20 hover:shadow-md hover:shadow-primary/5 hover:border-primary/20 p-8 w-2xl rounded-md m-4 flex transition-all duration-300'>
+              <span className='text-4xl p-2 bg-transparent border border-border text-foreground rounded-md m-1 mr-4 hover:text-primary/80 transition-all duration-200'>
                 {tool.icon}
               </span>
               <div>

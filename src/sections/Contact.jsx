@@ -205,6 +205,7 @@ const Contact = () => {
               <div className="space-y-4">
                 {contactInfo.map((item, i) => (
                   <a
+                    target="_blank"
                     key={i}
                     href={item.href}
                     className="flex items-center gap-4 p-4 rounded-xl hover:bg-surface transition-colors group"
