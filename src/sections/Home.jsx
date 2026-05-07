@@ -106,7 +106,7 @@ const Home = () => {
                     </div>
             </div>
           {/* Right Column - Profile Image */}
-            <div className="absolute right-30 bottom-90 md:right-25 md:bottom-85 lg:right-10 lg:bottom-190 animate-fade-in animation-delay-300">
+            <div className="absolute right-20 bottom-90 md:right-25 md:bottom-85 lg:right-10 lg:bottom-190 animate-fade-in animation-delay-300">
                 {/* Profile Image */}
                 <div className="relative max-w-md mx-auto">
                     <div
@@ -115,14 +115,14 @@ const Home = () => {
                     from-primary/15 via-transparent 
                     to-primary/5 blur-2xl animate-pulse"
                     />
-                    <div className="relative flex items-center justify-center glass h-36 w-36 rounded-full p-2 glow-border">
+                    <div className="relative flex items-center justify-center glass h-28 w-28 rounded-full p-1 glow-border">
                         
-                        <div class="flex items-center justify-center h-32 w-32 rounded-full bg-gray-200 overflow-hidden">
+                        <div class="flex items-center justify-center h-24 w-24 rounded-full bg-gray-200 overflow-hidden">
                             <img src={ProfilePic} alt="Profile" class="h-full w-full object-cover" />
                         </div>
 
                         {/* Floating Badge */}
-                        <div className="absolute -bottom-4 -right-24 glass rounded-xl px-3 py-2 animate-float">
+                        <div className="absolute -bottom-4 -right-20 glass rounded-xl px-3 py-2 animate-float">
                             <div className="flex items-center gap-3">
                                 <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
                                 <span className="text-sm font-medium">

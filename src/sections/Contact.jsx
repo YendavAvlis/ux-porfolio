@@ -84,10 +84,10 @@ const Contact = () => {
   
   return (
     <section id='contact' className='relative py-20 bg-background overflow-hidden'>
-      <div className='flex flex-col items-center justify-center px-8'>
+      <div className='flex flex-col items-center justify-center px-6'>
         <h4 className='text-center text-primary text-xs font-bold pb-4 tracking-wider uppercase'>get in touch</h4>
         <h1 className=' text-7xl lg:text-9xl font-semibold text-center bg-gradient-to-b  from-foreground bg-clip-text text-transparent'>Let&apos;s work togheter</h1>
-        <p className='text-center py-4 px-24 md:px-12 w-2xl text-xl leading-8'>
+        <p className='text-center py-4 px-24 md:px-12 w-xl text-xl leading-8'>
           Have a project in mind? I'd love to hear about it. Send me a message and let's discuss how we can work together.
         </p>
       </div>
@@ -98,8 +98,8 @@ const Contact = () => {
         <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-primary/10 opacity-30 rounded-full blur-3xl' />
       </div>
 
-      <div className='px-24 py-8 flex flex-col items-center justify-center'>
-         <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
+      <div className='w-full px-4 py-8 flex flex-col items-center justify-center'>
+         <div className="flex flex-col justify-center lg:grid lg:grid-cols-2 items-center gap-12 max-w-5xl mx-auto">
           <div className="glass p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-300">
             <form className="space-y-6" onSubmit={handleSubmit}>
               <div>

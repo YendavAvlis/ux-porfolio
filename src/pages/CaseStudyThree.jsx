@@ -11,7 +11,7 @@ const CaseStudyThree = ({scrollYProgress}) => {
   return (
     <motion.div style={{scale, rotate, backgroundImage:`url(${Pic1})`, backgroundSize: 'cover', height: '170vh', width: '85vw'}} className="sticky top-0 rounded-md flex flex-col items-center text-white overflow-hidden mx-auto">
           <div  className='container bg-white/30 backdrop-blur-md   '>
-            <div className=" flex flex-col justify-center items-center gap-4 mx-auto relative z-10 px-8 py-8">
+            <div className=" flex flex-col justify-center items-center gap-4 mx-auto relative z-10 px-4 py-4">
               <div className='w-full flex flex-col justify-evenly lg:my-auto border border-primary glass p-6 rounded-md '>
                 <div className=''>
                   <h2 className='font-bold text-3xl py-4 '>Skuata App</h2>
