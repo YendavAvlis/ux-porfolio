@@ -10,7 +10,7 @@ const CaseStudyOne = ({scrollYProgress}) => {
   const rotate = useTransform(scrollYProgress, [0, 1], [0, -5]);
   return (
 
-    <motion.div style={{scale, rotate, backgroundImage:`url(${Pic1})`, backgroundSize: 'cover', height: '175vh', width: '85vw'}} className="sticky top-0 rounded-md flex flex-col items-center text-white overflow-hidden mx-auto  ">
+    <motion.div style={{scale, rotate, backgroundImage:`url(${Pic1})`, backgroundSize: 'cover', height: '140vh', width: '85vw'}} className="sticky top-0 rounded-md flex flex-col items-center text-white overflow-hidden mx-auto  ">
       <div  className=' bg-white/30 backdrop-blur-md  '>
         <div className=" flex flex-col items-center gap-4 mx-auto relative z-10 py-4 px-4 xl:flex-row">
           <div className='w-full xl:w-1/3 flex flex-col justify-evenly lg:my-auto border border-primary glass p-6 rounded-md '>

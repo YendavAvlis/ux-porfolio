@@ -26,7 +26,7 @@ const CaseStudies = () => {
     <section id="projects" className="py-32 relative overflow-hidden">
       <h4 className='text-center text-primary text-xs font-bold pb-4 tracking-wider uppercase'>projects</h4>
       <h1 className='text-7xl lg:text-9xl font-semibold text-center bg-gradient-to-b  from-foreground bg-clip-text text-transparent'>Case Studies</h1>
-      <main ref={container} className='relative h-[510vh]'>
+      <main ref={container} className='relative h-[370vh]'>
         <CaseStudyOne scrollYProgress={scrollYProgress}/>
         <CaseStudyTwo  scrollYProgress={scrollYProgress}/>
         <CaseStudyThree  scrollYProgress={scrollYProgress}/>
